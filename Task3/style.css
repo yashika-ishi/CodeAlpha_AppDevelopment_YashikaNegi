@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0; 
+    padding: 0;
+    box-sizing: 0;
+    font-family: "Exo 2", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal; 
+
+}
+body{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 9px;
+    margin-top: 5%;
+    background-image: url(library.jpg);
+}
+.wrapper{
+    width:600px;
+    background: rgb(232, 228, 231);
+    border-radius: 16px;
+    padding: 31px 31px 26px;
+}
+.wrapper header{
+    font-size: 36px;
+    font-weight: 800;
+    text-align: center;
+}
+.wrapper .content{
+    margin: 38px;   
+}  
+.content .quote_area{
+    display: flex;
+    justify-content: center;
+}
+.quote_area i{
+    font-size: 14px;
+    font-weight: 800;
+
+}
+.quote_area i:first-child{
+    margin: 3px 11px 0 0;
+}
+.quote_area i:last-child{
+    display: flex;
+    align-items: center;
+    margin: 0 0 3px 11px;
+}
+    
+.quote_area .quote{
+    font-size: 26px;
+    font-weight: 250;
+    text-align: center;
+    word-break: break-all;
+}
+.content .author{
+    display: flex;
+    justify-content: flex-end;
+    font-size: 20px;
+    font-style: italic;
+    margin-top: 2%;
+}
+.author span:first-child{
+    margin: -7px 5px 0 0;
+    font-family:'Times New Roman', Times, serif;
+}
+
+.features ul{
+    display: flex;
+}
+.features ul li{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:0 5px;
+    list-style: none;
+    color: rgb(121, 16, 135);
+    height: 49px;
+    width: 49px;
+    border-radius: 50%;
+    border: 2px rgb(121, 16, 135);
+    transition: all 0.34s ease-out;
+}
+
+.features ul li:hover{
+    color: white;
+    background: rgb(121, 16, 135);
+    
+}
+.features button{
+    float: right;
+    border: none;
+    outline: none;
+    color: aliceblue;
+    cursor: pointer;
+    font-size: 15px;
+    border-radius: 70px;
+    padding: 16px 21px;
+    background: 2px rgb(121, 16, 135);
+}
+.features button:hover{
+    background: 2px rgb(77, 20, 84);
+}
+/* javascript  */
+button.loading{
+    opacity: 0.7;
+    pointer-events: none;
+}
